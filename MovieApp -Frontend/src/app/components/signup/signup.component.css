@@ -1,0 +1,30 @@
+.field{
+    width:100%;
+  }
+  
+  .container{
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 10px;
+    min-height: 700px;
+  }
+  .card{
+    width:60%;
+    margin:auto;
+    margin-top:20px ;
+    background-color: rgba(139, 210, 215, 0.822);
+    padding: 20px;
+    position: inherit;
+  }
+  
+  .card h1{
+    text-align: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card button{
+    margin: 5px;
+  }

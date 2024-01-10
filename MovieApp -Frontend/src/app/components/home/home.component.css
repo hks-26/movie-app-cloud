@@ -1,0 +1,8 @@
+.card{
+    width:60%;
+    margin:auto;
+    margin-top:20px ;
+    background-color: rgba(139, 210, 215, 0.822);
+    padding: 20px;
+    position: inherit;
+  }

@@ -1,0 +1,53 @@
+<div class="bootstrap-wrapper">
+    <div class="container mt" >
+
+        <div class="card">
+    
+                  
+        <form (ngSubmit)="doRegister()">
+    
+            <h1>Welcome to Signup Page</h1>
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Enter the First Name</mat-label>
+              <input name="firstname" [(ngModel)]="user.firstName"   matInput placeholder="first name">
+            </mat-form-field>
+        
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Enter the Last Name</mat-label>
+              <input name="lastname" [(ngModel)]="user.lastName"   matInput placeholder="last name">
+            </mat-form-field>
+    
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Enter the Email</mat-label>
+              <input name="email" type="email" [(ngModel)]="user.email"   matInput placeholder="email">
+            </mat-form-field>
+        
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Enter the User Name</mat-label>
+              <input name="username" [(ngModel)]="user.userName"   matInput placeholder="username">
+            </mat-form-field>
+    
+    
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Enter the password</mat-label>
+              <input name="password" type="password" [(ngModel)]="user.password"   matInput placeholder="password">
+            </mat-form-field> 
+    
+    
+            <mat-form-field class="field" appearance="fill">
+              <mat-label>Confirm Password</mat-label>
+              <input name="confimPassword" type="password" [(ngModel)]="user.confirmPassword"   matInput placeholder="confirm password">
+            </mat-form-field>
+        
+            <div class="text-center">
+              <button type="submit" mat-raised-button color="primary">Register</button>
+              <button type="reset" mat-raised-button color="accent">Clear</button>
+            </div>
+        
+          </form>
+    
+        </div>
+        
+
+        </div>
+</div>

@@ -1,0 +1,50 @@
+  .example-card{
+    max-width: 350px;
+    float:left;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 10px;
+  }
+
+  .movie-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .movie-card>*{
+    flex: 1 1 350px;
+
+  }
+
+  
+
+  .card{
+    width:60%;
+    margin:auto;
+    margin-top:20px ;
+    background-color: rgba(139, 210, 215, 0.822);
+    padding: 20px;
+    position: inherit;
+  }
+
+
+
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 300px;
+  }
+
+
+  /*.radio{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+  } */
+  
+  /* .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  } */
+  

@@ -1,0 +1,36 @@
+.example-card{
+  max-width: 354px;
+  float:left;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 10px;
+}
+
+.card{
+  width:60%;
+  margin:auto;
+  margin-top:20px ;
+  background-color: rgba(139, 210, 215, 0.822);
+  padding: 20px;
+  position: inherit;
+}
+
+
+.movie-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-card>*{
+  flex: 1 1 350px;
+
+}
+
+
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+}
